@@ -18,6 +18,7 @@ customers at high risk of churning, so a business can intervene proactively.
 - **Tenure** is the strongest churn driver — new customers (<12 months) churn far more than long-tenured ones
 - **Month-to-month contracts** have dramatically higher churn than 1-2 year contracts
 - Churners tend to have **higher monthly charges** ($70-100 range)
+- ![Tenure Distribution by Churn](hist.png)
 
 ## 🛠️ Approach
 1. Data cleaning (fixed `TotalCharges` type issue, handled missing values)
@@ -46,6 +47,7 @@ tradeoff worth discussing with stakeholders.
 3. Two-year contract
 4. Dependents
 5. Multiple lines
+6. ![SHAP Feature Importance](shap.png)
 
 ## 💡 Business Recommendations
 - Focus retention efforts on customers in their **first 12 months**
